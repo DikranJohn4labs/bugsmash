@@ -1,0 +1,6 @@
+{"ts": 1772462351, "event": "login_failed", "user": "stanislav.f", "ip": "127.0.0.1", "details": {"password": "aszxASZX34", "route": "/api/login"}}
+{"ts": 1772462359, "event": "login_failed", "user": "stanislav.f", "ip": "127.0.0.1", "details": {"password": "aszxASZX34", "route": "/api/login"}}
+{"ts": 1772462369, "event": "signup_success", "user": "stanislav.f", "ip": "127.0.0.1", "details": {"password": "aszxASZX34", "route": "/api/signup"}}
+{"ts": 1772462381, "event": "login_success", "user": "stanislav.f", "ip": "127.0.0.1", "details": {"password": "aszxASZX34", "route": "/api/login"}}
+{"ts": 1772644757, "event": "signup_success", "user": "33", "ip": "127.0.0.1", "details": {"password": "33d", "route": "/api/signup"}}
+{"ts": 1772644761, "event": "login_success", "user": "33", "ip": "127.0.0.1", "details": {"password": "33d", "route": "/api/login"}}

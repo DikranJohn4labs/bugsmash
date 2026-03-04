@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+#gameContainer {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 20px auto;
+    background: url('../images/surface.jpg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.bug, .bug2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+
+.bug:hover, .bug2:hover {
+    transform: scale(1.1);
+}
+
+.smashed {
+    animation: disappear 0.3s forwards;
+}
+
+@keyframes disappear {
+    100% {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+
+/* --- Auth pages --- */
+.authCard {
+    width: min(520px, calc(100% - 32px));
+    margin: 18px auto;
+    padding: 18px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    text-align: left;
+}
+
+.authRow {
+    display: grid;
+    gap: 8px;
+}
+
+.authRow input {
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.25);
+}
+
+.kzBtnLinkButton {
+    display: inline-block;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.25);
+    background: rgba(255,255,255,0.9);
+    color: #000;
+    text-decoration: none;
+}
+
+.msg {
+    margin-top: 14px;
+    min-height: 18px;
+    font-size: 14px;
+}
+
+.msg.ok { color: #0b6b2b; }
+.msg.err { color: #a40000; }
